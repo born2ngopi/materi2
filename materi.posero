@@ -1,0 +1,321 @@
+POSERO>> let b:posero_auto_next_line = 0
+POSERO>> let b:posero_push_all = 0
+POSERO>> let b:posero_fake_type =  "^\$"
+
+
+
+
+
+
+                Hierarchy File in Linux
+
+                  chandra agung rizky
+
+                      @needkopi
+
+
+
+github.com/fossildev https://fossil.or.id rnd@fossil.or.id
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+    apa itu Hierarchy file?
+
+       -> Filesystem hierarchy standard (FHS)
+
+       -> seperangkat petunjuk untuk penempatan file dan 
+          direktori di bawah sistem operasi mirip unix.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+    
+    
+    
+    
+    
+    / (Root)
+
+      -> entry point FHS
+
+      -> hanya user root yang dapat mengubah isi dari root
+         direktori
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+    
+    
+    
+    
+    /bin
+
+     -> hanya berisi file-file binary executable
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+  
+  
+  
+  
+  /boot
+
+    -> berisi semua file yang akan dimuat pertama kali
+       saat sistem operasi dijalankan.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+  
+  
+  
+  
+  /dev 
+
+    -> direktori ini berisi perangkat terminal yang dikenali
+       seperti USB, Hardisk, SSD, dan sebagainya.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+  
+  
+  
+  
+  /etc (Edit to Configurable)
+
+    -> berisi configurasi sistem
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+  
+  
+  
+  
+  
+  
+  /home
+
+    -> berisi file dan pengaturan pribadi
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+  
+  
+  
+  
+  
+  /lib 
+
+    ->  Berisi file-file library yang digunakan untuk 
+        mendukung kerja kernel Linux
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+
+
+
+
+
+  /run 
+    
+    -> direktori yang bersifat volatile yang
+      menyimpan variabel runtime data semenjak
+      terakhir kali sistem operai booting.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+
+
+
+
+  /media & /mnt
+
+    -> mount point untuk media yang dapat dilepas
+
+       example CD-Rom
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+
+
+
+
+
+  /opt
+
+    -> berisi aplikasi tambahan dari masing-masing
+       vendor
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+
+
+
+
+
+  /sbin
+
+    -> mirip seperti /bin yang berisi binary file
+       tetapi hanya bisa diakses oleh user root
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+
+
+
+
+
+  /proc
+
+    -> berisi tentang informasi System Processes dan resource
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+
+
+
+
+
+
+
+  /tmp
+
+    -> berisi file sementara
+
+    -> file-file ini akan otomastis terhapus ketika
+       system di reboot atau shutdown
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+
+
+
+
+
+
+  /usr
+
+    -> berisi binary file, dokumentasi lainnya
+
+
+    -> /usr/local/bin
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+
+
+
+
+      hak Akses File di linux
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+
+
+  Di dalam linux ada 3 macam  hak akses
+
+    -> r untuk Read   => (membaca)
+
+    -> w untuk Write  => (mengubah)
+
+    -> x untuk Execute
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+
+
+    example:
+
+      -rw-r--r-- 1 root root 0 Jan 16 16:01 root.txt
+
+
+          rw- => owner
+
+          r-- => User
+
+          r-- => other
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+POSERO>> let b:posero_auto_next_line = 1
+POSERO>> let b:posero_push_all = 1
+POSERO>> let b:posero_fake_type ="^\S" 
+
+
+    cara mengubah hak akses
+
+      r => 4
+      w => 2
+      x => 1
+
+    menggunakan tool "chmod"
+
+    example [demo]
+
+
+
